@@ -7,7 +7,15 @@
 body {
     background-color: var(--cor-de-fundo);
 }
-<body>
+<body><body>
+<h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1><section class="principal">
+<h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+<img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+</section>
+
+<img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+</body>
+
     <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
 </body>
 body {
@@ -17,4 +25,21 @@ body {
 * {
     margin: 0;
     padding: 0;
+}
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    background-image: url("img/Background.png");
+}
+<body>
+    <section class="container principal">
+        <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+        <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+    </section>
+</body>
+.container {
+    height: 100vh;
 }
